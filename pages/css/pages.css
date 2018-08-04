@@ -16,3 +16,16 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+.positief{
+    float: left;
+    width: 400px;
+}
+.negatief{
+    float: left;
+    width: 400px;
+
+}
+
+.concurrent{
+    clear: both;
+}
