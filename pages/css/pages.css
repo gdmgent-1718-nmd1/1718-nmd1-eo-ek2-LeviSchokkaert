@@ -16,6 +16,8 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto+Slab');
+
 .positief{
     float: left;
     width: 400px;
@@ -25,7 +27,93 @@ img {
     width: 400px;
 
 }
-
 .concurrent{
     clear: both;
+}
+.kleuren{
+    display:flex;
+    text-align: center;
+    color:white;
+    font-size: 15pt;
+}
+.kleur1{
+    background-color: #EDAA85;
+    flex: 1;
+}
+.kleur2{
+    background-color: #D66182;
+    flex: 1;
+}
+.tekst{
+    display: flex;
+}
+.teksten{
+    flex: 1;
+    border: 3px solid  #EDAA85;
+    border-radius: 20px;
+    margin: 5%;
+    text-align: center;
+}
+.titel{
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+}
+.ondertitel{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: #D66182;
+    padding-top: 25px;
+}
+.schrift{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding-top: 35px;
+}
+.knop{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    background-color: #EDAA85;
+    color: #D66182;
+    padding: 10px;
+    border-radius: 20px;
+    width: 60px;
+    text-align: center;
+}
+.knop:hover{
+    background-color: #D66182;
+    color: #EDAA85;
+}
+.bon{
+    padding-bottom: 5px;
+    border-bottom: #EDAA85 solid 4px;
+}
+.bon:hover{
+    border-bottom-color: #D66182;
+}
+.linken{
+    display: flex;
+}
+.link{
+    flex:1;
+    text-align: center;
+    margin: 5%;
+
+}
+.link1{
+    color: #D66182;
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    padding-bottom: 5px;
+}
+.link1:hover{
+    border-bottom: #EDAA85 solid 4px;
+}
+.link2{
+    color: #EDAA85;
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    padding-bottom: 5px;
+}
+.link2:hover{
+    border-bottom: #D66182 solid 4px;
 }
